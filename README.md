@@ -15,7 +15,7 @@ For a node.js version of the same application, see [here](https://github.com/dca
 
   - The callback URL should be your hostname plus `/api?action=oauthback`, ex. `https://server.com/api?action=oauthback`.
 
-1. Provide the following environment variables to your application:
+2. Provide the following environment variables to your application:
 
   ```none
 	COMMUNITY_USAGE_CHECKER_DEBUG=true (optional)
@@ -24,7 +24,7 @@ For a node.js version of the same application, see [here](https://github.com/dca
 	COMMUNITY_USAGE_CHECKER_CLIENT_SECRET=<client secret from the above step>
   ```
 
-1. Download `date.format.js` from [https://gist.github.com/jhbsk/4690754](https://gist.github.com/jhbsk/4690754) and copy it to the `src/main/webapp/js` directory.
+3. Download `date.format.js` from [https://gist.github.com/jhbsk/4690754](https://gist.github.com/jhbsk/4690754) and copy it to the `src/main/webapp/js` directory.
 
 
 ## To run the application locally using WebSphere Liberty
