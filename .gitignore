@@ -1,4 +1,3 @@
-.classpath
-.factorypath
-.tern-project
+.*
+!/.gitignore
 target
