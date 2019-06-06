@@ -5,7 +5,7 @@
     <title>Community Usage Checker</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
-    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>css/styles.css">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/styles.css">
     <link rel="shortcut icon" href="<%=request.getContextPath()%>/images/favicon.png">
 </head>
 

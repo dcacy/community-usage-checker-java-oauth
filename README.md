@@ -22,6 +22,7 @@ For a node.js version of the same application, see [here](https://github.com/dca
 	COMMUNITY_USAGE_CHECKER_HOSTNAME=<host name of Connections Cloud, ex. apps.na.collabserv.com>
 	COMMUNITY_USAGE_CHECKER_CLIENT_ID=<client id from the above step>
 	COMMUNITY_USAGE_CHECKER_CLIENT_SECRET=<client secret from the above step>
+	VCAP_APPLICATION={"application_uris":["<your uri, ex. 69984aa2.ngrok.io/community-usage-checker-java-oauth>"]}
   ```
 
 3. Download `date.format.js` from [https://gist.github.com/jhbsk/4690754](https://gist.github.com/jhbsk/4690754) and copy it to the `src/main/webapp/js` directory.
