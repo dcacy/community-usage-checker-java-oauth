@@ -13,7 +13,7 @@ For a node.js version of the same application, see [here](https://github.com/dca
 
   - The Auth Type should be `OAuth 2.0`.
 
-  - The callback URL should be your hostname plus `/api?action=oauthback`, ex. `https://server.com/api?action=oauthback`.
+  - The callback URL should be your uri plus `/api?action=oauthback`, ex. `https://server.com/community-usage-checker-java-oauth/api?action=oauthback`.
 
 2. Provide the following environment variables to your application:
 
@@ -25,7 +25,7 @@ For a node.js version of the same application, see [here](https://github.com/dca
 	VCAP_APPLICATION={"application_uris":["<your uri, ex. 69984aa2.ngrok.io/community-usage-checker-java-oauth>"]}
   ```
 
-3. Download `date.format.js` from [https://gist.github.com/jhbsk/4690754](https://gist.github.com/jhbsk/4690754) and copy it to the `src/main/webapp/js` directory.
+3. Download `date.format.js` from [https://gist.github.com/eralston/968809](https://gist.github.com/eralston/968809) and copy it to the `src/main/webapp/js` directory.
 
 
 ## To run the application locally using WebSphere Liberty
@@ -34,7 +34,7 @@ For a node.js version of the same application, see [here](https://github.com/dca
 
 1. Add the above environment variables to `server.env`.
 
-1. Use a took like `ngrok` to provide a URL to your application. Connections Cloud requires an `https` URI to point to.
+1. Use a tool like `ngrok` to provide a URL to your application. Connections Cloud requires an `https` URI to point to.
 
 1. Load the application in your browser. When you click `Log In`, you'll be taken to Connections Cloud. Once you authenticate, you'll be prompted to allow this application to access your Connections Cloud data. If you approve, you'll be directed back to the app, where it will attempt to retrieve the Communities to which you have access.
 
