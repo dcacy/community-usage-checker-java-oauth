@@ -1,4 +1,4 @@
-# community-usage-checker-liberty-oauth
+# community-usage-checker-java-oauth
 
 Instructions:
 
