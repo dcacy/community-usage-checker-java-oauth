@@ -4,7 +4,7 @@ Instructions:
 
 This sample application lists all the Connections Cloud Communities which can be viewed by the ID you provide, and also shows various metrics for each Community.
 
-For a node.js version of the same application, see [here](https://github.com/dcacy/community-usage-checker-oauth).
+For a node.js version of the same application, see [here](https://github.com/dcacy/community-usage-checker-node-oauth).
 
 
 ## Getting started
